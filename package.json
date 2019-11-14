@@ -1,0 +1,20 @@
+{
+  "name": "lisp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -r out",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "interpret": "ts-node src/index.ts",
+    "interpret-js": "node out/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.12.7",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.7.2"
+  }
+}
